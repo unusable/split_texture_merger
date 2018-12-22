@@ -1,18 +1,31 @@
 # 图片切分工具
 
-## configure file
+## egret 图集
+
+### configure file
 使用egret TextureMerger工具的json格式
->{
-> 	'frames': {
->		'subfilename': {
->			{x, y, w, h}
->		},
->		...
->	}
->}
+```
+ {
+ 	'frames': {
+		'subfilename': {
+			{x, y, w, h}
+		},
+		...
+	}
+}
+```
+
+### run
+> ./run-egret.sh
 
 
-## run
-> node index.js UI.json output/
+## level helper
+
+### configure file
+使用plist文件
+
+### run
+> ./run-lh.sh
+
 
 
